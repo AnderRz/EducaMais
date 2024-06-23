@@ -1,5 +1,4 @@
-  <script>
-   function abrirWhatsapp() {
+function abrirWhatsapp() {
       var nome = document.getElementById("nome").value;
       var telefone = document.getElementById("telefone").value;
       var email = document.getElementById("email").value;
@@ -13,4 +12,3 @@
        // + "*Mensagem*: " + msg;
       window.open(url, '_blank').focus();
     }
-	</script>
