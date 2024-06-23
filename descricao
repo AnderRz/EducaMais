@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Questão 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.css" />
+<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.js"></script>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th width=33.33%>Quadrado</th>
+                <th width=33.33%>Hexágono</th>
+                <th width=33.33%>Octógono</th>
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td width=33.33%>O Quadrado é uma figura geométrica de quatro lados.</td>
+                <td width=33.33%>O Hexágono é uma figura geométrica de seis lados.</td>
+                <td width=33.33%>O Octógono é uma figura geométrica de oito lados.</td>
+            </tr>
+            <tr>
+                <td width=33.33%><img src="quadrado.jpg"alt="quadrado" width=100%></td>
+                <td width=33.33%><img src="hexagono.jpg"alt="hexagono" width=100%></td>
+                <td width=33.33%><img src="octogono.jpg"alt="octogono" width=100%></td>
+				</tr>
+         </tbody>
+    </table>
+</body>
+</html>
