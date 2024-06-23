@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora área</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+            margin: 0 10px;
+            text-align: center;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora de área</h2>
+
+    <form id="formQuadrado">
+        <h3>Quadrado</h3>
+        Lado: <input type="number" id="ladoQuadrado" required>
+        <input type="submit" value="Calcular">
+        <p id="resultadoQuadrado"></p>
+    </form>
+
+    <form id="formHexagono">
+        <h3>Hexágono</h3>
+        Lado: <input type="number" id="ladoHexagono" required>
+        <input type="submit" value="Calcular">
+        <p id="resultadoHexagono"></p>
+    </form>
+
+    <form id="formOctogono">
+        <h3>Octógono Regular</h3>
+        Lado: <input type="number" id="ladoOctogono" required>
+        <input type="submit" value="Calcular">
+        <p id="resultadoOctogono"></p>
+    </form>
+
+    <script>
+        document.getElementById('formQuadrado').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let lado = parseFloat(document.getElementById('ladoQuadrado').value);
+            let area = lado * lado;
+            document.getElementById('resultadoQuadrado').textContent = `área: ${area}`;
+        });
+       
+       document.getElementById('formHexagono').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let lado = parseFloat(document.getElementById('ladoHexagono').value);
+            let area = 6 * lado;
+            document.getElementById('resultadoHexagono').textContent = `área: ${area}`;
+        });
+
+        document.getElementById('formOctogono').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let lado = parseFloat(document.getElementById('ladoOctogono').value);
+            let area = 8 * lado;
+            document.getElementById('resultadoOctogono').textContent = `área: ${area}`;
+        });
+    </script>
+</body>
+</html>
