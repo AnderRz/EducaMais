@@ -5,18 +5,20 @@
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.css" />
 <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.js"></script>
+<script type="text/javascript" src="enviarwpp.js"></script>
 </head>
 <body>
-<h1>Deixe seu nome, número e e-mail para contato:</h1><br>
+<h1><center>Deixe seu nome, número e e-mail para contato:</h1></center><br>
 <br>
 <center>
-  <form action="#" method="get" onsubmit="enviarWhatsapp()">
-   Nome:<input type= "text" id="nome" name="nome" placeholder="Seu nome"><br>
-Contato:<input type= "number" placeholder="Telefone" ><br>
-E-mail:<input type= "email" id="email" email="E-mail" placeholder="Endereço de E-mail"><br>
-<input type="submit" value="Solicitar ajuda" onclick="contato();"/>
+  <form action="#" method="get" onsubmit="abrirWhatsapp()">
+   Nome:<input type="text" id="nome" name="nome" placeholder="Seu nome"><br>
+Contato:<input type="number" placeholder="Telefone" id="telefone" ><br>
+E-mail:<input type="email" id="email" email="E-mail" placeholder="Endereço de E-mail"><br>
+<input type="submit" value="Solicitar ajuda"/>
 <input type="reset" value="Limpar">
   </form>
+
   </center>
   </body>
   </html>
