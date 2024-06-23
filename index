@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Menu EducaMais</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.css" />
+<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.6.2/jquery.mobile-1.6.2.min.js"></script>
+</head>
+<body>
+<h2><marquee behavior=alternate>
+EducaMais, facilitando seu aprendizado!
+</marquee></h2>
+
+<table>
+        <thead>
+            <tr>
+                <th width=33.33%>Calculador de área, confira no campo abaixo.</th>
+                <th width=33.33%>Descrição da figura geométrica, imagem e fórmula do cálculo da área</th>
+                <th width=33.33%>Contato para ajuda.</th>
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td width=33.33%><center><a href="calculadordearea.html">Calculador de área</a></center></td>
+                <td width=33.33%><center><a href="descricao.html">Ver descrição</a></center></td>
+                <td width=33.33%><center><a href="contatar.html">contate-nos</a></center></td>
+            </tr>
+         </tbody>
+    </table>
+    
+
+<p>Nós somos a EducaMais, e essa é uma página que irá te auxiliar nos seus cálculos relacionados às áreas das figuras geométricas.
+</body>
+</html>
