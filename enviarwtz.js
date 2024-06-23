@@ -9,7 +9,7 @@
         + "%0a" // Quebra de linha
         + "*Nome*: " + nome + "%0a" // Dados do formulário
         + "*Telefone*: " + telefone + "%0a"
-        + "*E-mail*: " + email + "%0a"
+        + "*E-mail*: " + email + "%0a";
        // + "*Mensagem*: " + msg;
       window.open(url, '_blank').focus();
     }
