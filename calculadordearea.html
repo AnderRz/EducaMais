@@ -61,21 +61,21 @@
             event.preventDefault();
             let lado = parseFloat(document.getElementById('ladoQuadrado').value);
             let area = lado * lado;
-            document.getElementById('resultadoQuadrado').textContent = `área: ${area}`;
+            document.getElementById('resultadoQuadrado').textContent = `Área: ${area}`;
         });
        
        document.getElementById('formHexagono').addEventListener('submit', function(event) {
             event.preventDefault();
             let lado = parseFloat(document.getElementById('ladoHexagono').value);
             let area = 6 * lado;
-            document.getElementById('resultadoHexagono').textContent = `área: ${area}`;
+            document.getElementById('resultadoHexagono').textContent = `Área: ${area}`;
         });
 
         document.getElementById('formOctogono').addEventListener('submit', function(event) {
             event.preventDefault();
             let lado = parseFloat(document.getElementById('ladoOctogono').value);
             let area = 8 * lado;
-            document.getElementById('resultadoOctogono').textContent = `área: ${area}`;
+            document.getElementById('resultadoOctogono').textContent = `Área: ${area}`;
         });
     </script>
 </body>
